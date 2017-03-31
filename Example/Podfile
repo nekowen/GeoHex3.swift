@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'GeoHex3.swift_Example' do
+  pod 'GeoHex3.swift', :path => '../'
+
+  target 'GeoHex3.swift_Tests' do
+    inherit! :search_paths
+
+  end
+end
