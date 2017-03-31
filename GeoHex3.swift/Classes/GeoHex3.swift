@@ -35,19 +35,19 @@ public class GeoHex3 {
         return self.getZone(x: xy.x, y: xy.y, level: level)
     }
     
-    /// XYからHexを取得する
-    /// Get the hex from XYstructure
+    /// XYクラスからHexを取得する
+    /// Get the hex from XYclass
     ///
     /// - Parameters:
-    ///   - xy: XYstructure
+    ///   - xy: Position
     ///   - level: hexlevel ex): 7
     /// - Returns: hex
     public class func getZone(xy: XY, level: Int) -> Zone {
         return self.getZone(x: xy.x, y: xy.y, level: level)
     }
     
-    /// XYからHexを取得する
-    /// Get the hex from XYstructure
+    /// XY位置からHexを取得する
+    /// Get the hex from position
     ///
     /// - Parameters:
     ///   - x: positionX ex): 12345
@@ -121,14 +121,14 @@ extension GeoHex3 {
                     code: h_code)
     }
     
-    /// 緯度軽度からXYを取得する
-    /// Get the XYstructure from coordinate
+    /// 緯度軽度からXYクラスを取得する
+    /// Get the XYclass from coordinate
     ///
     /// - Parameters:
     ///   - latitude: 緯度
     ///   - longitude: 軽度
     ///   - level: hexlevel
-    /// - Returns: XYstructure
+    /// - Returns: XYclass
     class func getXY(latitude: Double, longitude: Double, level: Int) -> XY {
         let h_size = self.hexSize(level: level)
         let z_xy = self.loc2xy(latitude: latitude, longitude: longitude)
