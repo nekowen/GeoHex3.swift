@@ -129,7 +129,7 @@ extension GeoHex3 {
     ///   - longitude: 軽度
     ///   - level: hexlevel
     /// - Returns: XYclass
-    class func getXY(latitude: Double, longitude: Double, level: Int) -> XY {
+    public class func getXY(latitude: Double, longitude: Double, level: Int) -> XY {
         let h_size = self.hexSize(level: level)
         let z_xy = self.loc2xy(latitude: latitude, longitude: longitude)
         let latitude_grid = z_xy.y
@@ -160,7 +160,12 @@ extension GeoHex3 {
         return self.adjustXY(x: h_x, y: h_y, level: level)
     }
     
-    class func getXY(code: String) -> XY {
+    /// HexcodeからXYを取得する
+    /// Get the XYclass from hexcode
+    ///
+    /// - Parameter code: hexcode
+    /// - Returns: XYclass
+    public class func getXY(code: String) -> XY {
         let level: Int = code.length - 2
         var h_x: Double = 0.0
         var h_y: Double = 0.0
@@ -229,7 +234,7 @@ extension GeoHex3 {
         return self.adjustXY(x: h_x, y: h_y, level: level)
     }
     
-    class func adjustXY(x: Double, y: Double, level: Int) -> XY {
+    fileprivate class func adjustXY(x: Double, y: Double, level: Int) -> XY {
         var x = x
         var y = y
         
