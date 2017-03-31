@@ -6,9 +6,22 @@
 //  License: MIT License
 //
 
-public struct XY {
-    public var x: Double
-    public var y: Double
+public class XY {
+    fileprivate var _x: Double
+    fileprivate var _y: Double
+    
+    public init(x: Double, y: Double) {
+        self._x = x
+        self._y = y
+    }
+    
+    var x: Double {
+        return self._x
+    }
+    
+    var y: Double {
+        return self._y
+    }
 }
 
 extension XY: Equatable {}
