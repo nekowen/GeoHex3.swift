@@ -1,0 +1,6 @@
+framework module Pods_GeoHex3_swift_Tests {
+  umbrella header "Pods-GeoHex3.swift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
