@@ -55,4 +55,5 @@ GeoHex3.swift is available under the MIT license. See the LICENSE file for more 
 ## Algorithm License
 
 Copyright (c) 2009 @sa2da (http://twitter.com/sa2da)
+
 GeoHex v3 http://geogames.net/geohex/v3
