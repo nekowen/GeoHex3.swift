@@ -5,8 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/GeoHex3.swift.svg?style=flat)](http://cocoapods.org/pods/GeoHex3.swift)
 [![Platform](https://img.shields.io/cocoapods/p/GeoHex3.swift.svg?style=flat)](http://cocoapods.org/pods/GeoHex3.swift)
 
-GeoHex3 library for Swift
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
