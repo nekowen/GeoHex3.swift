@@ -1,6 +1,6 @@
 {
   "name": "GeoHex3.swift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "GeoHex3 library for Swift",
   "homepage": "https://github.com/nekowen/GeoHex3.swift",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/nekowen/GeoHex3.swift.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
