@@ -26,7 +26,7 @@ pod "GeoHex3.swift"
 
 ## Usage
 
-Get the hex from location
+To get Hex Area from the coordinate, call the "getZone" method of the GeoHex3 class.
 
 ```swift
 import GeoHex3Swift
@@ -35,7 +35,7 @@ let zone = GeoHex3.getZone(coordinate: COORDINATE, level: 7)
 let hexcode = zone.code
 ```
 
-Get the hexes from limited area
+Also, if the SouthWest and NorthEast coordinates are known, you can get the multiple areas it in range.
 
 ```swift
 let zones = GeoHex3.getZone(southWest: SOUTHWEST_COORD, northEast: NORTHEAST_COORD, level: 7, buffer: false)
