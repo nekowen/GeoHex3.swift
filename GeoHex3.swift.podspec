@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeoHex3.swift'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'GeoHex3 library for Swift'
 
   s.homepage         = 'https://github.com/nekowen/GeoHex3.swift'
