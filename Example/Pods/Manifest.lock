@@ -1,5 +1,5 @@
 PODS:
-  - GeoHex3.swift (0.1.0)
+  - GeoHex3.swift (0.1.1)
 
 DEPENDENCIES:
   - GeoHex3.swift (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GeoHex3.swift: 9ca9f2f7391bfc72d336f187e06c7e9694be6b29
+  GeoHex3.swift: 6427874fb194d62f6f869582bd09d6f0b201e3b9
 
-PODFILE CHECKSUM: d229ff029a5cb22a37de0fd4af0427ae24263878
+PODFILE CHECKSUM: 86e69230a76ffcc4178bbb08ad75ad8488126e75
 
 COCOAPODS: 1.2.1.beta.1
