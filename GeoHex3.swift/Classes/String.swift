@@ -15,17 +15,17 @@ extension String {
     
     func substring(from: Int) -> String {
         let fromIndex = self.index(from: from)
-        return substring(from: fromIndex)
+        return String(self[fromIndex...])
     }
     
     func substring(from: Int, length: Int) -> String {
         let startIndex = self.index(self.startIndex, offsetBy: from)
         let endIndex = self.index(startIndex, offsetBy: length)
-        return self.substring(with: startIndex ..< endIndex)
+        return String(self[startIndex ..< endIndex])
     }
     
     func index(character: Character) -> Int {
-        let index = self.characters.enumerated().filter { (idx, c) in c == character }.first?.0
+        let index = self.enumerated().filter { (idx, c) in c == character }.first?.0
         guard let offset = index else {
             return -1
         }
@@ -41,11 +41,11 @@ extension String {
     }
     
     var length: Int {
-        return self.characters.count
+        return self.count
     }
     
     subscript (index: Int) -> Character {
-        return self.characters[self.characters.index(self.startIndex, offsetBy: index)]
+        return self[self.index(self.startIndex, offsetBy: index)]
     }
     
     subscript (index: Int) -> String {

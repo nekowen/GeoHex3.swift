@@ -115,8 +115,8 @@ class GeoHex3SwiftTests: XCTestCase {
             if let detail = value as? NSArray {
                 if let code = detail[0] as? String, let lat = detail[1] as? Double, let lon = detail[2] as? Double {
                     let zone = GeoHex3.getZone(code: code)
-                    XCTAssertEqualWithAccuracy(zone.latitude, lat, accuracy: 0.000000001)
-                    XCTAssertEqualWithAccuracy(zone.longitude, lon, accuracy: 0.000000001)
+                    XCTAssertEqual(zone.latitude, lat, accuracy: 0.000000001)
+                    XCTAssertEqual(zone.longitude, lon, accuracy: 0.000000001)
                     XCTAssertEqual(zone.code, code)
                     return
                 }
@@ -179,7 +179,7 @@ class GeoHex3SwiftTests: XCTestCase {
             (value) in
             if let detail = value as? NSArray {
                 if let south = detail[0] as? Double, let west = detail[1] as? Double, let north = detail[2] as? Double, let east = detail[3] as? Double, let level = detail[4] as? Int, let buffer = detail[5] as? Bool, let xys = detail[6] as? NSArray {
-                    let xysmap: [XY] = xys.flatMap {
+                    let xysmap: [XY] = xys.compactMap {
                         (xy) in
                         guard let xy = xy as? NSDictionary else {
                             return nil
@@ -194,7 +194,7 @@ class GeoHex3SwiftTests: XCTestCase {
                         XCTAssertEqual(calcXys.count, xysmap.count)
                         xysmap.forEach {
                             (value) in
-                            XCTAssertNotNil(calcXys.index(of: value))
+                            XCTAssertNotNil(calcXys.firstIndex(of: value))
                         }
                         return
                     }

@@ -39,32 +39,32 @@
 		0854E0D71BC21D6F6C97338B1089F223 /* Pods-GeoHex3.swift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoHex3.swift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EAAC260BB08F6F31060B20FEB64AD3F /* Pods-GeoHex3.swift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoHex3.swift_Example-dummy.m"; sourceTree = "<group>"; };
 		10C5EFA3E8493C77AF33B771B9413BCB /* Pods-GeoHex3.swift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoHex3.swift_Tests-dummy.m"; sourceTree = "<group>"; };
-		13BAE8A995E01587C4FC8865D6639583 /* Pods-GeoHex3.swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeoHex3.swift_Example.modulemap"; sourceTree = "<group>"; };
+		13BAE8A995E01587C4FC8865D6639583 /* Pods-GeoHex3.swift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GeoHex3.swift_Example.modulemap"; sourceTree = "<group>"; };
 		1C2FDE484E2AEE69B1F2C2CEFE2F99E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		27CC549754C6A86DEBB01B53008435D4 /* Pods-GeoHex3.swift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoHex3.swift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		282A388AE193EE62DE6865A07CBD5F59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FADE073CC7EB747E3B76CF42F6295F1 /* Pods-GeoHex3.swift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoHex3.swift_Example-resources.sh"; sourceTree = "<group>"; };
 		3142BA731153F8731703552AFD4A57FA /* XY.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = XY.swift; sourceTree = "<group>"; };
 		41CA9C379863B054208FD73A1F8252CA /* Decimal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
-		4885537242F44A7AE072F90F9047EF98 /* GeoHex3Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeoHex3Swift.framework; path = GeoHex3.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E548D288100B31358BF699FBBFC6CA4 /* Pods_GeoHex3_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoHex3_swift_Tests.framework; path = "Pods-GeoHex3.swift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4885537242F44A7AE072F90F9047EF98 /* GeoHex3Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoHex3Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E548D288100B31358BF699FBBFC6CA4 /* Pods_GeoHex3_swift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoHex3_swift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E266B6B60721684C92C5756DBF9935 /* Pods-GeoHex3.swift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoHex3.swift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		58FA8F01CC3EFF655F6438C2BF648F30 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		592B5A74894B32EE072EA23668D42557 /* Pods-GeoHex3.swift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoHex3.swift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C09CB569AA22A2AD1D7CEFA8D08234B /* Pods-GeoHex3.swift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoHex3.swift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6773D1949CD1E9ECD025C9D935EB0897 /* Pods-GeoHex3.swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeoHex3.swift_Tests.modulemap"; sourceTree = "<group>"; };
+		6773D1949CD1E9ECD025C9D935EB0897 /* Pods-GeoHex3.swift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GeoHex3.swift_Tests.modulemap"; sourceTree = "<group>"; };
 		6AD8890952446ED12E278A45CA3A2511 /* GeoHex3.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoHex3.swift.xcconfig; sourceTree = "<group>"; };
 		70376DB16333008D7B7E0561B1CA9054 /* GeoHex3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeoHex3.swift; sourceTree = "<group>"; };
 		7ABC53A22068545AC1CE5DEEB6388BB3 /* Pods-GeoHex3.swift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoHex3.swift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		85CECC5BDD1922CF42D45C9D65EE455A /* GeoHex3.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GeoHex3.swift.modulemap; sourceTree = "<group>"; };
+		85CECC5BDD1922CF42D45C9D65EE455A /* GeoHex3.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GeoHex3.swift.modulemap; sourceTree = "<group>"; };
 		8A73B969586C0072CEBAB3D5E57EF399 /* Pods-GeoHex3.swift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoHex3.swift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D75C5CBECBDB44F709F899C3EEA4D92 /* GeoHex3.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoHex3.swift-prefix.pch"; sourceTree = "<group>"; };
 		9FC2E31B76B4101453C0F4D9A3FFD048 /* Pods-GeoHex3.swift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoHex3.swift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A6BF739992E94B8F81F4CB418539856D /* Pods-GeoHex3.swift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoHex3.swift_Tests-resources.sh"; sourceTree = "<group>"; };
 		A9ACBF022D71B1949DEA7CD95CA8D594 /* Pods-GeoHex3.swift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoHex3.swift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B4293F82AA80C39C877654CB4E08F3DE /* Pods-GeoHex3.swift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoHex3.swift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B62B9C65BD63CF72F7AB8936D77B5027 /* Pods_GeoHex3_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoHex3_swift_Example.framework; path = "Pods-GeoHex3.swift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62B9C65BD63CF72F7AB8936D77B5027 /* Pods_GeoHex3_swift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoHex3_swift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A936796337F78076C727E0E1DDDD35 /* GeoHex3.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoHex3.swift-umbrella.h"; sourceTree = "<group>"; };
 		CE641934C06F81B8C6C80DF6851B78AD /* Pods-GeoHex3.swift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoHex3.swift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1E140245AC862C35390B4528433B899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,7 +144,6 @@
 			children = (
 				A510B3A1728AE07289433ED632481732 /* Classes */,
 			);
-			name = GeoHex3.swift;
 			path = GeoHex3.swift;
 			sourceTree = "<group>";
 		};
@@ -196,7 +195,6 @@
 				3142BA731153F8731703552AFD4A57FA /* XY.swift */,
 				DBF4EDDD3A65F23182861539201C449E /* Zone.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -330,13 +328,19 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					8289D12CD39E1C0819E56DDF4D480BE2 = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 3C861063D94CCFC516D1B24EC6F14FD7 /* Products */;
@@ -454,7 +458,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -675,7 +680,8 @@
 				PRODUCT_NAME = GeoHex3Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
