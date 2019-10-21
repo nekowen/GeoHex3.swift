@@ -59,7 +59,7 @@ class ZoneTests: XCTestCase {
         let xy1 = XY(x: -5023398, y: -46514720)
         let zone1 = Zone(coordinate: loc1, xy: xy1, code: "EU53225085622605")
         
-        XCTAssertEqualWithAccuracy(zone1.hexSize, 0.15516093424785285, accuracy: 0.000000001)
+        XCTAssertEqual(zone1.hexSize, 0.15516093424785285, accuracy: 0.000000001)
     }
 }
 

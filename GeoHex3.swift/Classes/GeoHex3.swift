@@ -562,7 +562,7 @@ extension GeoHex3 {
     }
     
     fileprivate class func merge(xys: [XY], level: Int) -> [XY] {
-        var xys = xys.sorted {
+        let xys = xys.sorted {
             (a, b) in
             return a.x > b.x ? false : a.x < b.x ? true : a.y < b.y ? false : true
         }
