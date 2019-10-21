@@ -173,7 +173,8 @@ extension GeoHex3 {
         var h_dec9 = String(self.H_KEY.index(character: code[0]) * 30 +
             self.H_KEY.index(character: code[1])) + code.substring(from: 2)
         
-        if String(h_dec9[0]).match(pattern: "[15]") &&
+        if h_dec9.count > 2 &&
+            String(h_dec9[0]).match(pattern: "[15]") &&
             String(h_dec9[1]).match(pattern: "[^125]") &&
             String(h_dec9[2]).match(pattern: "[^125]") {
             if h_dec9[0] == "5" {
@@ -562,7 +563,7 @@ extension GeoHex3 {
     }
     
     fileprivate class func merge(xys: [XY], level: Int) -> [XY] {
-        var xys = xys.sorted {
+        let xys = xys.sorted {
             (a, b) in
             return a.x > b.x ? false : a.x < b.x ? true : a.y < b.y ? false : true
         }
