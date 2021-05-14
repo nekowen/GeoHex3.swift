@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888B14B7264EE5AB003AC60D /* hex_v3.2_test_coord2hex.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B14AF264EE524003AC60D /* hex_v3.2_test_coord2hex.json */; };
+		888B14B8264EE5AB003AC60D /* hex_v3.2_test_code2hex.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B14B0264EE524003AC60D /* hex_v3.2_test_code2hex.json */; };
+		888B14B9264EE5AB003AC60D /* hex_v3.2_test_rect2xys.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B14B1264EE524003AC60D /* hex_v3.2_test_rect2xys.json */; };
+		888B14BA264EE5AB003AC60D /* hex_v3.2_test_coord2xy.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B14B2264EE524003AC60D /* hex_v3.2_test_coord2xy.json */; };
+		888B14BB264EE5AB003AC60D /* hex_v3.2_test_xy2hex.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B14B3264EE524003AC60D /* hex_v3.2_test_xy2hex.json */; };
+		888B14BC264EE5AB003AC60D /* hex_v3.2_test_code2xy.json in Resources */ = {isa = PBXBuildFile; fileRef = 888B14B4264EE524003AC60D /* hex_v3.2_test_code2xy.json */; };
+		OBJ_44 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Decimal.swift */; };
+		OBJ_45 /* GeoHex3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* GeoHex3.swift */; };
+		OBJ_46 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* String.swift */; };
+		OBJ_47 /* XY.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XY.swift */; };
+		OBJ_48 /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Zone.swift */; };
+		OBJ_54 /* GeoHex3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* GeoHex3Tests.swift */; };
+		OBJ_55 /* ZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ZoneTests.swift */; };
+		OBJ_57 /* GeoHex3Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "GeoHex3.swift::GeoHex3Swift::Product" /* GeoHex3Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888B14AC264EE4FE003AC60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "GeoHex3.swift::GeoHex3Swift";
+			remoteInfo = GeoHex3Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888B14AF264EE524003AC60D /* hex_v3.2_test_coord2hex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hex_v3.2_test_coord2hex.json; sourceTree = "<group>"; };
+		888B14B0264EE524003AC60D /* hex_v3.2_test_code2hex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hex_v3.2_test_code2hex.json; sourceTree = "<group>"; };
+		888B14B1264EE524003AC60D /* hex_v3.2_test_rect2xys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hex_v3.2_test_rect2xys.json; sourceTree = "<group>"; };
+		888B14B2264EE524003AC60D /* hex_v3.2_test_coord2xy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hex_v3.2_test_coord2xy.json; sourceTree = "<group>"; };
+		888B14B3264EE524003AC60D /* hex_v3.2_test_xy2hex.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hex_v3.2_test_xy2hex.json; sourceTree = "<group>"; };
+		888B14B4264EE524003AC60D /* hex_v3.2_test_code2xy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hex_v3.2_test_code2xy.json; sourceTree = "<group>"; };
+		"GeoHex3.swift::GeoHex3Swift::Product" /* GeoHex3Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GeoHex3Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"GeoHex3.swift::GeoHex3SwiftTests::Product" /* GeoHex3SwiftTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeoHex3SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* GeoHex3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHex3.swift; sourceTree = "<group>"; };
+		OBJ_11 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_12 /* XY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XY.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		OBJ_16 /* GeoHex3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoHex3Tests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* ZoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneTests.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_23 /* GeoHex3.swift.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = GeoHex3.swift.xcworkspace; sourceTree = SOURCE_ROOT; };
+		OBJ_24 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_26 /* GeoHex3.swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GeoHex3.swift.podspec; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_57 /* GeoHex3Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888B14AE264EE524003AC60D /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				888B14AF264EE524003AC60D /* hex_v3.2_test_coord2hex.json */,
+				888B14B0264EE524003AC60D /* hex_v3.2_test_code2hex.json */,
+				888B14B1264EE524003AC60D /* hex_v3.2_test_rect2xys.json */,
+				888B14B2264EE524003AC60D /* hex_v3.2_test_coord2xy.json */,
+				888B14B3264EE524003AC60D /* hex_v3.2_test_xy2hex.json */,
+				888B14B4264EE524003AC60D /* hex_v3.2_test_code2xy.json */,
+			);
+			name = TestData;
+			path = Tests/TestData;
+			sourceTree = "<group>";
+		};
+		OBJ_14 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				888B14AE264EE524003AC60D /* TestData */,
+				OBJ_15 /* GeoHex3SwiftTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_15 /* GeoHex3SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* GeoHex3Tests.swift */,
+				OBJ_17 /* ZoneTests.swift */,
+			);
+			name = GeoHex3SwiftTests;
+			path = Tests/GeoHex3SwiftTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"GeoHex3.swift::GeoHex3Swift::Product" /* GeoHex3Swift.framework */,
+				"GeoHex3.swift::GeoHex3SwiftTests::Product" /* GeoHex3SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_14 /* Tests */,
+				OBJ_18 /* Products */,
+				OBJ_22 /* Example */,
+				OBJ_23 /* GeoHex3.swift.xcworkspace */,
+				OBJ_24 /* LICENSE */,
+				OBJ_25 /* README.md */,
+				OBJ_26 /* GeoHex3.swift.podspec */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* GeoHex3Swift */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* GeoHex3Swift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Decimal.swift */,
+				OBJ_10 /* GeoHex3.swift */,
+				OBJ_11 /* String.swift */,
+				OBJ_12 /* XY.swift */,
+				OBJ_13 /* Zone.swift */,
+			);
+			name = GeoHex3Swift;
+			path = Sources/GeoHex3Swift;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"GeoHex3.swift::GeoHex3Swift" /* GeoHex3Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXNativeTarget "GeoHex3Swift" */;
+			buildPhases = (
+				OBJ_43 /* Sources */,
+				OBJ_49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoHex3Swift;
+			productName = GeoHex3Swift;
+			productReference = "GeoHex3.swift::GeoHex3Swift::Product" /* GeoHex3Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"GeoHex3.swift::GeoHex3SwiftTests" /* GeoHex3SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_50 /* Build configuration list for PBXNativeTarget "GeoHex3SwiftTests" */;
+			buildPhases = (
+				OBJ_53 /* Sources */,
+				888B14B6264EE5A2003AC60D /* Resources */,
+				OBJ_56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_58 /* PBXTargetDependency */,
+			);
+			name = GeoHex3SwiftTests;
+			productName = GeoHex3SwiftTests;
+			productReference = "GeoHex3.swift::GeoHex3SwiftTests::Product" /* GeoHex3SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "GeoHex3.swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"GeoHex3.swift::GeoHex3Swift" /* GeoHex3Swift */,
+				"GeoHex3.swift::GeoHex3SwiftTests" /* GeoHex3SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888B14B6264EE5A2003AC60D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888B14B7264EE5AB003AC60D /* hex_v3.2_test_coord2hex.json in Resources */,
+				888B14B8264EE5AB003AC60D /* hex_v3.2_test_code2hex.json in Resources */,
+				888B14B9264EE5AB003AC60D /* hex_v3.2_test_rect2xys.json in Resources */,
+				888B14BA264EE5AB003AC60D /* hex_v3.2_test_coord2xy.json in Resources */,
+				888B14BB264EE5AB003AC60D /* hex_v3.2_test_xy2hex.json in Resources */,
+				888B14BC264EE5AB003AC60D /* hex_v3.2_test_code2xy.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_44 /* Decimal.swift in Sources */,
+				OBJ_45 /* GeoHex3.swift in Sources */,
+				OBJ_46 /* String.swift in Sources */,
+				OBJ_47 /* XY.swift in Sources */,
+				OBJ_48 /* Zone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_54 /* GeoHex3Tests.swift in Sources */,
+				OBJ_55 /* ZoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "GeoHex3.swift::GeoHex3Swift" /* GeoHex3Swift */;
+			targetProxy = 888B14AC264EE4FE003AC60D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = GeoHex3.swift.xcodeproj/GeoHex3Swift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = GeoHex3Swift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = GeoHex3Swift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = GeoHex3.swift.xcodeproj/GeoHex3Swift_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = GeoHex3Swift;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = GeoHex3Swift;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = GeoHex3.swift.xcodeproj/GeoHex3SwiftTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = GeoHex3SwiftTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = GeoHex3.swift.xcodeproj/GeoHex3SwiftTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = GeoHex3SwiftTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "GeoHex3.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_40 /* Build configuration list for PBXNativeTarget "GeoHex3Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_50 /* Build configuration list for PBXNativeTarget "GeoHex3SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_51 /* Debug */,
+				OBJ_52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

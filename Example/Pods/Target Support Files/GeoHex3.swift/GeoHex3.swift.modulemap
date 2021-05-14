@@ -1,6 +1,0 @@
-framework module GeoHex3Swift {
-  umbrella header "GeoHex3.swift-umbrella.h"
-
-  export *
-  module * { export * }
-}
