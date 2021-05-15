@@ -32,13 +32,13 @@
 
 /* Begin PBXFileReference section */
 		88727FCA264EC95500CCE734 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		88727FDE264ECA5400CCE734 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example.swift/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		88727FDF264ECA5400CCE734 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example.swift/ViewController.swift; sourceTree = SOURCE_ROOT; };
-		88727FE1264ECA5400CCE734 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example.swift/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		88727FDE264ECA5400CCE734 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		88727FDF264ECA5400CCE734 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		88727FE1264ECA5400CCE734 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		88727FE9264ECF3000CCE734 /* GeoHex3Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GeoHex3Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88727FEF264ECF8B00CCE734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		88727FF1264ECF8B00CCE734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		88727FF4264ECFA000CCE734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Example.swift/Info.plist; sourceTree = SOURCE_ROOT; };
+		88727FF4264ECFA000CCE734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Example/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				88727FF0264ECF8B00CCE734 /* Main.storyboard */,
 			);
 			name = Base.lproj;
-			path = Example.swift/Base.lproj;
+			path = Example/Base.lproj;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_19 /* Products */ = {
@@ -251,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Example.swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -312,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Example.swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
