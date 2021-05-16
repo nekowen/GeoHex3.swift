@@ -15,11 +15,11 @@ public class XY {
         self._y = y
     }
     
-    var x: Double {
+    public var x: Double {
         return self._x
     }
     
-    var y: Double {
+    public var y: Double {
         return self._y
     }
 }
