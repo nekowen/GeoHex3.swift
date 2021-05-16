@@ -5,13 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/GeoHex3.swift.svg?style=flat)](http://cocoapods.org/pods/GeoHex3.swift)
 [![Platform](https://img.shields.io/cocoapods/p/GeoHex3.swift.svg?style=flat)](http://cocoapods.org/pods/GeoHex3.swift)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
-- iOS 8.0+
+- iOS 9.0+
 - Xcode 11.0+
 - Swift 5.0+
 
@@ -19,12 +15,45 @@ If you want to use Swift3, Please use 0.1.x version.
 
 ## Installation
 
-GeoHex3.swift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+
+To install GeoHex3.swift by adding it to your `Podfile`:
 
 ```ruby
 pod "GeoHex3.swift"
 ```
+
+### Carthage
+
+To install GeoHex3.swift by adding it to your `Cartfile`:
+
+```
+github "nekowen/GeoHex3.swift"
+```
+
+After build the framework by Carthage, add `GeoHex3Swift.framework` or `GeoHex3Swift.xcframework` to the `Frameworks and Libraries` in Xcode
+
+### Swift Package Manager
+
+To install GeoHex3.swift by adding it to your `Package.swift` or operating Xcode directly:
+
+```swift
+// swift-tools-version:5.3
+
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_APPLICATION_NAME",
+    dependencies: [
+        .package(url: "https://github.com/nekowen/GeoHex3.swift.git", from: "0.3.0")
+    ]
+)
+```
+
+## Example
+
+To run the example, open `GeoHex3.swift.xcworkspace`  
+The source code can be found under the Example directory.
 
 ## Usage
 
